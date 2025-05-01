@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights (download separately)
+*.pt
+
+# Video files (too large for git)
+*.mp4
+
+# Logs (generated at runtime)
+logs/*.txt
+
+# Output
+output/*.mp4
+
+# Jupyter
+.ipynb_checkpoints/
