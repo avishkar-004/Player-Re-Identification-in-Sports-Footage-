@@ -46,3 +46,5 @@ class Detector:
         logger.info(f"Frame {frame_count}: {len(detections)} detections, classes: {[d['class'] for d in detections]}")
         handler.flush()
         return detections
+# Class name mapping for display
+CLASS_NAMES = {0: 'ball', 1: 'goalkeeper', 2: 'player', 3: 'referee'}
