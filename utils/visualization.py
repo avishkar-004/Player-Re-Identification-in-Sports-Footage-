@@ -31,3 +31,7 @@ class EnhancedVisualizer:
         cv2.putText(annotated_frame, info_text, (10, 30), 
                     cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
         return annotated_frame
+
+# Default font scale for different resolutions
+FONT_SCALE_720P = 0.6
+FONT_SCALE_1080P = 0.8
