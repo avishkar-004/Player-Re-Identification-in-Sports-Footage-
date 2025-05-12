@@ -90,3 +90,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Default configuration
+DEFAULT_CONF_THRES = 0.25
+DEFAULT_IOU_THRES = 0.5
+DEFAULT_MAX_DISAPPEARED = 75
