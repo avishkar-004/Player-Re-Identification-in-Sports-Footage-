@@ -192,3 +192,10 @@ if __name__ == "__main__":
         logger.error(f"Evaluation failed: {str(e)}")
         print(f"Error: {str(e)}")
         raise
+
+# Expected target values for performance evaluation
+TARGET_PLAYER_COUNT = 16
+TARGET_BALL_COUNT = 1
+TARGET_REFEREE_COUNT = 2
+MAX_PLAYER_ID_SWITCHES = 5
+MIN_REID_SUCCESS_RATE = 80.0
