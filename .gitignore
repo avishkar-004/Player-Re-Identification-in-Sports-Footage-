@@ -37,3 +37,7 @@ output/*.mp4
 
 # Jupyter
 .ipynb_checkpoints/
+
+
+# Evaluation output
+evaluation_report.txt
