@@ -1,3 +1,4 @@
+# Main entry point for player re-identification pipeline
 import cv2
 import logging
 import os
