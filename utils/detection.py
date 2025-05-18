@@ -1,3 +1,4 @@
+# YOLOv11 object detector with configurable confidence thresholds
 from ultralytics import YOLO
 import numpy as np
 import logging
