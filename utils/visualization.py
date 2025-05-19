@@ -1,3 +1,4 @@
+# Bounding box and annotation visualization utilities
 import cv2
 import numpy as np
 from typing import List, Dict
