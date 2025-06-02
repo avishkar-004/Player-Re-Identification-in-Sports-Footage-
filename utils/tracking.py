@@ -171,3 +171,7 @@ class EnhancedTracker:
         logger.info(f"Frame {frame_count}: {len(tracks)} tracks, IDs: {[t['id'] for t in tracks]}, Total IDs: {self.next_id - 1}")
         handler.flush()
         return tracks
+
+# Similarity weight presets for different object classes
+BALL_WEIGHTS = [0.3, 0.5, 0.2]  # spatial, appearance, size
+PLAYER_WEIGHTS = [0.4, 0.4, 0.2]  # spatial, appearance, size
