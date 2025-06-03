@@ -80,3 +80,13 @@ Generates `evaluation_report.txt` with detection accuracy, ID switches, re-ID su
 ## License
 
 MIT
+
+
+## Evaluation Metrics
+
+| Metric | Target | Achieved |
+|--------|--------|----------|
+| Player Re-ID | >80% | 96.27% |
+| Processing FPS | ~17 | ~64 |
+| Player ID Switches | <5 | 4 |
+| Ball Detection | ~1/frame | 0.95 |
