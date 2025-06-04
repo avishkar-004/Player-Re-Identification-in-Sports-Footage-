@@ -41,3 +41,8 @@ output/*.mp4
 
 # Evaluation output
 evaluation_report.txt
+
+
+# Trained model weights
+weights/
+runs/
