@@ -36,3 +36,12 @@ class EnhancedVisualizer:
 # Default font scale for different resolutions
 FONT_SCALE_720P = 0.6
 FONT_SCALE_1080P = 0.8
+
+
+# Color legend for class identification
+COLOR_LEGEND = {
+    'ball': 'Red (BGR: 0,0,255)',
+    'goalkeeper': 'Yellow (BGR: 0,255,255)',
+    'player': 'Green (BGR: 0,255,0)',
+    'referee': 'Blue (BGR: 255,0,0)'
+}
