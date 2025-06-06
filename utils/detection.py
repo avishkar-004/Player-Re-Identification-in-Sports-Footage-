@@ -49,3 +49,12 @@ class Detector:
         return detections
 # Class name mapping for display
 CLASS_NAMES = {0: 'ball', 1: 'goalkeeper', 2: 'player', 3: 'referee'}
+
+
+# Per-class confidence threshold defaults
+DEFAULT_CLASS_CONF = {
+    0: 0.20,  # ball - lower threshold for small objects
+    1: 0.25,  # goalkeeper
+    2: 0.25,  # player
+    3: 0.20   # referee - lower threshold for fewer instances
+}
