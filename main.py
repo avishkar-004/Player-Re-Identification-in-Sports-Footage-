@@ -96,3 +96,7 @@ if __name__ == "__main__":
 DEFAULT_CONF_THRES = 0.25
 DEFAULT_IOU_THRES = 0.5
 DEFAULT_MAX_DISAPPEARED = 75
+
+
+# Supported video formats
+SUPPORTED_FORMATS = ['.mp4', '.avi', '.mov', '.mkv']
