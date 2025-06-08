@@ -200,3 +200,8 @@ TARGET_BALL_COUNT = 1
 TARGET_REFEREE_COUNT = 2
 MAX_PLAYER_ID_SWITCHES = 5
 MIN_REID_SUCCESS_RATE = 80.0
+
+
+# Evaluation log file path
+EVAL_LOG_PATH = 'logs/evaluation_log.txt'
+EVAL_REPORT_PATH = 'evaluation_report.txt'
