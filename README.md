@@ -90,3 +90,10 @@ MIT
 | Processing FPS | ~17 | ~64 |
 | Player ID Switches | <5 | 4 |
 | Ball Detection | ~1/frame | 0.95 |
+
+
+## Troubleshooting
+
+- **CUDA out of memory**: Reduce input resolution or batch size
+- **Low FPS**: Check GPU availability with `torch.cuda.is_available()`
+- **Missing model**: Download `best.pt` from the link above
