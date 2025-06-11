@@ -175,3 +175,9 @@ class EnhancedTracker:
 # Similarity weight presets for different object classes
 BALL_WEIGHTS = [0.3, 0.5, 0.2]  # spatial, appearance, size
 PLAYER_WEIGHTS = [0.4, 0.4, 0.2]  # spatial, appearance, size
+
+
+# Default tracker configuration
+DEFAULT_MAX_DISAPPEARED = 75  # ~3 seconds at 25fps
+DEFAULT_SIMILARITY_THRESHOLD = 0.35
+DEFAULT_MAX_DISTANCE = 100.0
