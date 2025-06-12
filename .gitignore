@@ -46,3 +46,8 @@ evaluation_report.txt
 # Trained model weights
 weights/
 runs/
+
+
+# Temporary files
+*.tmp
+*.bak
