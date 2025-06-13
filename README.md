@@ -97,3 +97,11 @@ MIT
 - **CUDA out of memory**: Reduce input resolution or batch size
 - **Low FPS**: Check GPU availability with `torch.cuda.is_available()`
 - **Missing model**: Download `best.pt` from the link above
+
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Run tests before submitting
+4. Open a pull request
