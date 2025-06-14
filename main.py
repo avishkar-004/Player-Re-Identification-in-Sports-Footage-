@@ -100,3 +100,9 @@ DEFAULT_MAX_DISAPPEARED = 75
 
 # Supported video formats
 SUPPORTED_FORMATS = ['.mp4', '.avi', '.mov', '.mkv']
+
+
+# Exit codes
+EXIT_SUCCESS = 0
+EXIT_FILE_NOT_FOUND = 1
+EXIT_VIDEO_ERROR = 2
