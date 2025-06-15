@@ -45,3 +45,9 @@ COLOR_LEGEND = {
     'player': 'Green (BGR: 0,255,0)',
     'referee': 'Blue (BGR: 255,0,0)'
 }
+
+
+# Text rendering constants
+TEXT_THICKNESS = 1
+BOX_THICKNESS = 2
+LABEL_PADDING = 5
