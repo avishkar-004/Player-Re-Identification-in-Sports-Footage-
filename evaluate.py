@@ -205,3 +205,7 @@ MIN_REID_SUCCESS_RATE = 80.0
 # Evaluation log file path
 EVAL_LOG_PATH = 'logs/evaluation_log.txt'
 EVAL_REPORT_PATH = 'evaluation_report.txt'
+
+
+# Class ID to name mapping
+CLASS_ID_MAP = {0: 'ball', 1: 'goalkeeper', 2: 'player', 3: 'referee'}
