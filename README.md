@@ -105,3 +105,10 @@ MIT
 2. Create a feature branch
 3. Run tests before submitting
 4. Open a pull request
+
+
+## Acknowledgments
+
+- YOLOv11 by Ultralytics for object detection
+- ResNet18 (PyTorch) for appearance feature extraction
+- OpenCV for video processing and visualization
