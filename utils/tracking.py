@@ -181,3 +181,8 @@ PLAYER_WEIGHTS = [0.4, 0.4, 0.2]  # spatial, appearance, size
 DEFAULT_MAX_DISAPPEARED = 75  # ~3 seconds at 25fps
 DEFAULT_SIMILARITY_THRESHOLD = 0.35
 DEFAULT_MAX_DISTANCE = 100.0
+
+
+# Embedding dimension from ResNet18 output
+EMBEDDING_DIM = 1000
+MIN_CROP_SIZE = 5  # minimum pixel size for feature extraction
