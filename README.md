@@ -112,3 +112,9 @@ MIT
 - YOLOv11 by Ultralytics for object detection
 - ResNet18 (PyTorch) for appearance feature extraction
 - OpenCV for video processing and visualization
+
+
+## Hardware Requirements
+
+- **Minimum**: 8GB RAM, 4-core CPU
+- **Recommended**: 16GB RAM, NVIDIA GPU with 4GB+ VRAM
